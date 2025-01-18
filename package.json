@@ -1,14 +1,9 @@
 {
-  "name": "astro-slow-dev-mode",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
-  },
-  "dependencies": {
-    "astro": "^5.1.7"
-  }
+  "name": "my-workspace",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "astro",
+    "vite"
+  ]
 }
