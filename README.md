@@ -1,5 +1,12 @@
 # Astro slow dev mode
 
+### Setup
+
+- `astro` folder contains an astro project
+- `vite` folder contains a vite project
+
+Both projects are identical and load a JS function that returns a string from the `paraglide` folder.
+
 ### Reproduction:
 
 ```
